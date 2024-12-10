@@ -60,5 +60,10 @@ The script will:
 Feel free to fork and submit pull requests to improve the project.
 And this is our test data:[https://www.kaggle.com/c/quora-question-pairs/data?select=test.csv.zip
 ](url)
-
+References:
+[https://www.kaggle.com/c/quora-question-pairs](url)
+[https://www.kaggle.com/c/quora-question-pairs/discussion](url)
+[https://github.com/seatgeek/fuzzywuzzy#usage](url)
+[https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/](url)
+[http://proceedings.mlr.press/v37/kusnerb15.pdf](url)
 
