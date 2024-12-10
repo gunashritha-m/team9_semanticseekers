@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 # Load the dataset
 def load_data():
-    df = pd.read_csv('quora_question_pairs.csv')  # Adjust path if necessary
+    df = pd.read_csv('quora_question_pairs.csv')  
     questions1 = df['question1'].values
     questions2 = df['question2'].values
     labels = df['is_duplicate'].values
@@ -53,11 +53,9 @@ model = BertForSequenceClassification.from_pretrained('bert-base-uncased')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-# Prepare data
 questions1, questions2, labels = load_data()
 X_train, X_val, y_train, y_val = train_test_split(questions1, questions2, labels, test_size=0.1)
 
-# Create Dataset objects and DataLoaders
 train_dataset = QADataset(X_train, X_val, y_train, tokenizer, max_len=128)
 val_dataset = QADataset(X_val, X_val, y_val, tokenizer, max_len=128)
 
