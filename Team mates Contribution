@@ -1,36 +1,34 @@
 
-Task Assignments and Responsibilities
-
-
-	•	Assigned to: Mrudula
+Tasks Contributed during project
+ Mrudula
 Id-Se22uari163
-	•	Responsibilities:
-	•	Perform thorough data preprocessing to clean and structure the raw data.
-	•	Handle missing data, normalization, encoding, or any necessary transformations to ensure the data is ready for feature extraction.
-	•	Maintain a consistent and reproducible preprocessing pipeline for future use.
+	•	Performed data preprocessing to clean and structure the raw data.
+	•	Did Handling missing data, normalization, encoding and transformations to ensure the data is ready for feature extraction.
+	•	Maintained a consistent and reproducible preprocessing pipeline for future use.
 
 2. Feature Extraction and Engineering
-	•	Assigned to: Gunashritha
+GunaShritha
 Id-Se22uari102
-	•	Responsibilities:
-	•	Extract meaningful features from the preprocessed data.
-	•	Engineer new features that can improve model performance, leveraging domain knowledge and exploratory data analysis.
-	•	Document the steps taken during feature selection and engineering for reference and reproducibility.
+
+	•	Extracted meaningful features from the preprocessed data.
+	•	Did the  Feature Engineering new features that improved model performance, leveraging domain knowledge and exploratory data analysis.
+	•	Documented the steps taken during feature selection and engineering for reference.
+        .       In later stages did hyperparameters tuning for better performance.
 
 3. Evaluation and Testing
-	•	Assigned to: Harshitha Reddy .M
+Harshitha Reddy .M
 Id-Se22uari097
-	•	Responsibilities:
-	•	Evaluate the model’s performance using relevant metrics.
-	•	Design and execute robust testing strategies to validate the model’s accuracy and generalization.
-	•	Identify and address any inconsistencies or issues in the outputs to improve overall quality.
+
+	•	Evaluated the model’s performance using relevant metrics.
+	•	Designed and execute robust testing strategies to validate the model’s accuracy .
+	•	Identifed and addressed  inconsistencies in the outputs to improve overall quality.
 
 4. BERT Model Implementation
-	•	Assigned to: Harshitha.T and Sree Harshitha.J
+Harshitha.T and Sree Harshitha.J
 Id's- Se22uari157
       Se22uari204
-	•	Responsibilities:
-	•	Implement and fine-tune the BERT model for the project’s objectives.
-	•	Ensure proper integration of the BERT model into the pipeline, including tokenization and attention mechanisms.
-	•	Collaborate with the evaluation team to refine the model based on performance metrics.
+
+	•	Implemented and fine-tuned the BERT model for the project’s objectives.
+	•	Ensured proper integration of the BERT model into the pipeline, including tokenization and attention mechanisms.
+	•	Collaborated with the evaluation team to refine the model based on performance metrics.
 
